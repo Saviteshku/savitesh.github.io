@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savitesh Kushwaha - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 70%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            min-height: 70px;
+            border-bottom: #77aaff 10px solid;
+        }
+
+        header #branding h1 {
+            margin: 0;
+            margin-bottom: 0; /* Zero bottom margin to reduce space */
+            font-size: 24px; /* Adjust font size as needed */
+            line-height: 1.2; /* Adjust line height for closer lines */
+        }
+        header #branding h2 {
+            margin: 5;
+            font-size: 18px; /* Adjust font size as needed */
+            line-height: 1.2; /* Line height to control space between header lines */
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #77aaff;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            border-bottom: #77aaff 2px solid;
+            padding-bottom: 0px;
+        }
+        .section h8 {
+            border-bottom: #0d0d0d 2px solid;
+            padding-bottom: 2px;
+            margin-bottom: 30px;
+        }
+        .section ul li {
+            list-style-type: disc; /* Adds bullet points to list items */
+            padding: 2px 2px; /* Adjust padding */
+            background: #f4f4f4;
+            margin-bottom: 0px; /* Reduced space between list items */
+            margin-top: -6px;
+        }
+        .skills.section ul {
+            columns: 2; /* Splits the list into two columns */
+            -webkit-columns: 2; /* Chrome, Safari, Opera */
+            -moz-columns: 2; /* Firefox */
+        }
+        .skills.section li {
+            list-style-type: none; /* Removes default list bullet */
+            margin-bottom: 10px; /* Adds space between items */
+        }
+        .star-rating {
+            font-size: 16px; /* Adjust size as needed */
+            color: #0080ff; /* Gold color */
+        }
+        .contact, .details, .links {
+            float: right;
+            width: 30%;
+            margin-bottom: 5px;
+            margin-top: -30px
+        }
+        .contact ul, .details ul, .links ul{
+            margin-bottom: 5px;
+            margin-top: -20px
+        }
+        .main {
+            float: left;
+            width: 65%;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+
+        /* Print Styles */
+        @media print {
+        body {
+            width: 100%;
+            font-size: 12pt;
+            -webkit-print-color-adjust: exact; /* Chrome, Safari */
+            color-adjust: exact; /* Firefox */
+        }
+        .container {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: visible;
+        }
+        a {
+            text-decoration: underline; /* Keeps underlines for links */
+            color: blue; /* Keeps links in blue */
+        }
+        header, footer, button {
+            display: none; /* Hides elements that should not be printed */
+        }
+        .print-header {
+            display: block;
+            text-align: center;
+            font-size: 16pt;
+            margin-top: 5mm;
+            background-color: brown; /* Ensures background color is applied */
+            color: white; /* Ensures text color is applied */
+            -webkit-print-color-adjust: exact; /* Chrome, Safari */
+            color-adjust: exact; /* Firefox */
+        }
+    }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Savitesh Kushwaha</h1>
+                <h2>PhD Scholar</h2>
+            </div>
+        </div>
+    </header>
+
+    <button onclick="window.print();" style="position: fixed; top: 20px; right: 20px;">Print this page</button>
+
+    <div class="container clearfix">
+        <div class="print-header" style="background-color: rgb(60, 57, 57); color: white; text-align: center; font-size: 10pt; line-height: 1.5">
+            <h1 style="margin-bottom: 0;">Savitesh Kushwaha</h1>
+            <h2 style="margin-top: 0mm;">PhD Scholar</h2>
+        </div>
+        <section class="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li>Email: <a href="mailto:savitesh.sunny@gmail.com">savi_ku@outlook.com</a></li>
+                <li>Phone: 8700055011</li>
+                <li>Address: Room B22, Old Doctors Hostel, PGIMER, Chandigarh, 160012, India</li>
+            </ul>
+        </section>
+
+        <section class="details">
+            <h2>Details</h2>
+            <ul>
+                <li>Nationality: Indian</li>
+                <!-- <li>Date of birth: 04 December 1994</li> -->
+            </ul>
+        </section>
+
+        <section class="links">
+            <h2>Links</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/saviteshkushwaha/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://scholar.google.co.in/citations?user=A6SC_G0AAAAJ&hl=en" target="_blank">Google Scholar</a></li>
+                <li><a href="https://github.com/Saviteshku" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="container">
+        <section class="profile section">
+            <h2>Aim</h2>
+            <p>Experienced and dedicated researcher with experience in identifying efficiencies and problem areas within research streams while communicating needs for projects.</p>
+        </section>
+
+        <section class="employment section">
+            <h2>Employment History</h2>
+            <h3>Biostatistician, Public Health Foundation of India, India</h3>
+            <p>May 2024 — Present</p>
+            <ul>
+                <li>Working on the Project titled "Global Health Research Center for Multiple Long-Term Conditions-NIHR Grant".</li>
+                <li>Data Management and Analysis.</li>
+                <li>Data Harmonisation.</li>
+                <li>Statistical Concepts.</li>
+                <li>Collaboration with the project team</li>
+            </ul>
+            <h3>Founder, AutoRev</h3>
+            <p>Jan 2024 — Present</p>
+            <ul>
+                <li>AutoRev is revolutionizing the academic review process with its suite of automated tools tailored for reviewing academic papers.".</li>
+                <li>At its core lies the unparalleled capabilities of AI, particularly GPT-4, driving advanced text extraction.</li>
+                <li>This enables users to efficiently analyze and distill essential information from academic documents, saving valuable time and enhancing productivity.</li>
+            </ul>
+            <h3>Research Associate III, Department of Community Medicine and School of Public Health, PGIMER, Chandigarh, India</h3>
+            <p>August 2023 — April 2024</p>
+            <ul>
+                <li>Worked on the Project titled "Effect of Millet Consumption on the Cardio-Metabolic Health in Punjab".</li>
+                <li>Data Collection.</li>
+                <li>Development of questionnaire.</li>
+                <li>Anthropometric measurements like height, weight, BMI, waist circumference.</li>
+                <li>Dietary intake - 24-hour recalls.</li>
+                <li>Intravenous Blood Sampling.</li>
+                <li>Data management.</li>
+                <li>Coordinating study logistics like supplies and sample transport.</li>
+                <li>Maintaining documentation - consent forms, logs, questionnaires, and reports.</li>
+            </ul>
+            <h3><a href="https://micronutrientforum.org/strong-pandemic-response-in-india-supported-nutrition-resilience-of-vulnerable-communities/" target="_blank">Micronutrient Forum (USA), Online </a></h3>
+            <p>May 2022 — June 2023</p>
+            <ul>
+                <li>HMIS and NFHS-5 Data analysis for COVID impact assessment on healthcare services.</li>
+                <li>Retrieving HMIS & COVID data from the web portal.</li>
+                <li>Data Cleaning and Analysis.</li>
+                <li>Merging COVID data with HMIS services delivery.</li>
+                <li>Plotting the time series of service delivery.</li>
+                <li>Separating Data based on Months and Indian States.</li>
+                <li>Assisting in Presentation and Data Interpretation.</li>
+                <li>Used Python for Data Analysis.</li>
+            </ul>
+        </section>
+
+        <section class="education section">
+            <h2>Education</h2>
+            <h3>PhD, Department of Community Medicine and School of Public Health, PGIMER, Chandigarh, India</h3>
+            <p>July 2019 — Present</p>
+            <p>ICMR-Senior Research Fellow at the Department of Community Medicine and School of Public Health</p>
+            <p>Thesis Title: Gene-based nutritional intervention in prevention and control of type 2 diabetes: A randomised controlled trial.</p>
+            <p>NUDGE (Nutritional intervention for Diabetic GEnes) Trial</p>
+            <p><a href= "https://ctri.nic.in/Clinicaltrials/pmaindet2.php?EncHid=NTYwOTM=&Enc=&userName=CTRI/2021/09/036121" target="_blank">CTRI Reg. No.: CTRI/2021/09/036121 </a></p>
+            <ul>
+                <li>Designing Research Projects</li>
+                <li>Data Collection in Community Centers and OPDs</li>
+                <li>Diet Personalisation based on Multiple Body Parameters.</li>
+                <li>Data Management using Python</li>
+                <li>Intravenous Blood Sampling</li>
+                <li>DNA Extraction and qPCR for SNPs detection</li>
+                <li>Research Writing</li>
+                <li>Reviewing Research Papers for Journals</li>
+                <li>Development and Deployment of ML models</li>
+                <li>Development of Windows Application using Python</li>
+                <li>Data Analysis (Research)</li>
+                <li>Support in Community-Based Awareness Events</li>
+                <li>Organising Webinars & Symposium</li>
+                <li>Satellite Imagery & Raster Map development using ArcGIS Pro</li>
+                <li>Google Earth Engine via Python</li>
+                <li>Assisted in Academic and Research Lectures</li>
+            </ul>
+            <h3><a href="http://anthro.du.ac.in/mphil.html" target="_blank"> Department of Anthropology, University of Delhi, New Delhi, India </a></h3>
+            <p>July 2017 — July 2019</p>
+            <p>Thesis Title: "Cardio-metabolic risk factors among women of reproductive age".</p>
+            <ul>
+                <li>Field Visits</li>
+                <li>Data Analysis using SPSS & STATA</li>
+                <li>Laboratory Analysis</li>
+                <li>Coordination with Project Team</li>
+                <li>Research Writing</li>
+            </ul>
+            <h3>M.Sc. Anthropology, Hansraj College, University of Delhi, New Delhi, India</h3>
+            <p>July 2015 — July 2017</p>
+            <p>Dissertation Title: "Fingerprints of Males and Females of Tadvi of Village Khadagada and Bhil of Village Pan-Talavadi, Tehsil Nandod, District Narmada, Gujarat".</p>
+            <ul>
+                <li>Human Genetics, Human Evolution, Anthropometry, Biostatistics, Dermatoglyphics, Ergonomics, Population Studies, Epidemiology</li>
+                <li>Field Visits</li>
+                <li>Dissertation Writing</li>
+                <li>Data analysis</li>
+                <li>Laboratory Skills</li>
+                <li>Research Writings</li>
+            </ul>
+            <h3>B.Sc. Life Science, Ramjas College, University of Delhi, New Delhi, India</h3>
+            <p>July 2012 — July 2015</p>
+            <ul>
+                <li>Zoology, Botany, Chemistry, Mathematics, Biostatistics, English</li>
+            </ul>
+            <h3>AISSCE - 12th, D.A.V. Public School, Jehanabad, Bihar, India</h3>
+            <p>February 2011 — March 2012</p>
+            <p>C.B.S.E. Board - 81%</p>
+            <h3>AISSE - 10th, D.A.V. Public School, Jehanabad, Bihar, India</h3>
+            <p>February 2009 — March 2010</p>
+            <p>C.B.S.E Board - 8.6 C.G.P.A</p>
+        </section>
+
+        <section class="skills section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Project Management <span class="star-rating">★★★★★</span></li>
+                <li>Python, R Studio, STATA <span class="star-rating">★★★★☆</span></li>
+                <li>Google Earth Engine <span class="star-rating">★★★☆☆</span></li>
+                <li>Statistical Software <span class="star-rating">★★★★☆</span></li>
+                <li>Intravenous Blood Sampling <span class="star-rating">★★★★☆</span></li>
+                <li>qPCR <span class="star-rating">★★★★★</span></li>
+                <li>Adobe Photoshop <span class="star-rating">★★★★☆</span></li>
+                <li>Languages: English, Hindi <span class="star-rating">★★★★☆</span></li>
+                <li>Data Analysis <span class="star-rating">★★★★☆</span></li>
+                <li>Clinical Data Handling <span class="star-rating">★★★★★</span></li>
+                <li>Machine Learning <span class="star-rating">★★★☆☆</span></li>
+                <li>Biostatistics <span class="star-rating">★★★★☆</span></li>
+                <li>Human Genetics <span class="star-rating">★★★★☆</span></li>
+                <li>DNA Extraction <span class="star-rating">★★★★☆</span></li>
+                <li>Anthropometry <span class="star-rating">★★★★★</span></li>
+                <li>Adobe Premiere Pro <span class="star-rating">★★★☆☆</span></li>
+            </ul>
+        </section>
+
+        <section class="hobbies section">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Coding</li>
+                <li>Biking</li>
+                <li>Photography</li>
+            </ul>
+        </section>
+
+        <section class="publications section">
+            <h2>Published/Accepted Research (International)</h2>
+            <ul>
+                <h8>
+                    <strong>2023</strong>
+                    <ul>
+                        <li><a href= "https://doi.org/10.1016/j.cegh.2023.101497" target="_blank"> Tharu, R., Ahlawat, G. M., Kushwaha, S., & Khanna, P. (2023). Gut microbiota disparities between active Crohn's disease and healthy controls: A global systematic review. Clinical Epidemiology and Global Health, 101497.(IF: 2.5) </a></li>
+                        <li><a href= "https://doi.org/10.1016/j.nut.2023.112172" target="_blank"> Kushwaha, S., Srivastava, R., Bhadada, S. K., Khan, N., Mondal, A., & Khanna, P. (2023). Interaction between micronutrients and lipid profile in prediabetes and diabetes among school-aged children (5–9 y) in India. Nutrition, 115, 112172.(IF: 4) </a></li>
+                        <li><a href= "https://doi.org/10.1016/j.diabres.2023.110738" target="_blank">  Kushwaha, S., Srivastava, R., Bhadada, S. K., & Khanna, P. (2023). Prevalence of pre-diabetes and diabetes among school-age children and adolescents of India: A brief report. Diabetes Research and Clinical Practice, 110738. (IF: 6) </a></li>
+                        <li><a href= "https://doi.org/10.1007/s10995-023-03656-x" target="_blank"> P., Kaur, M., Varma, N., Sharma, S., Sehgal, R., Singh, T., Srivastava, R., Kushwaha, S., & Jain, R. (2023). Impact of Community Based Nutrition Intervention in the Prevention and Control of Anaemia Among Reproductive Aged Women of India. Maternal and Child Health Journal, pp.1-7. 10.1007/sl0995-023-03656-x (IF: 2.5)</a></li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2022</strong>
+                    <ul>
+                        <li><a href="https://doi.org/10.1016/j.cmpb.2022.107180" target="_blank"> S., Srivastava, R., Jain, R., Sagar, V., Aggarwal, A.K., Bhadada, S.K., & Khanna, P. (2022). Harnessing machine learning models for non-invasive pre-diabetes screening in children and adolescents. Computer Methods and Programs in Biomedicine (Elsevier), 107180. Doi:10.1016/j.cmpb.2022.107180 (IF: 6.5) </a></li>
+                        <li><a href="https://doi.org/10.1016/j.nut.2022.111773" target="_blank"> R., Kushwaha, S., Khanna, P., Gupta, M., Bharti, B., & Jain, R. (2022). Comprehensive overview of smartphone applications delivering child nutrition information. Nutrition (Elsevier), 111773. Doi:doi.org/10.1016/j.nut.2022.111773 (IF: 4) </a></li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2021</strong>
+                    <ul>
+                        <li><a href="https://doi.org/10.1017/S1368980021003232" target="_blank"> S., Khanna, P., Rajagopal, V., Kiran, T. (2021). Determining the nutritional immunity information-seeking behaviour during the COVID-19 pandemic in India: a Google Trends data analysis. Public health Nutrition (Cambridge Core). 1-12. Doi:10.1017/S1368980021003232 (IF: 5)</a></li>
+                        <li><a href="https://doi.org/10.1016/j.cegh.2021.100788" target="_blank"> S., Khanna, P., Rajagopal, V., Kiran, T. (2021). Biological attributes of age and gender variations in Indian COVID-19 cases: A retrospective data analysis. Clinical epidemiology and global health (Elsevier). 11, 100788. Doi: 10.1016/j.cegh.2021.100788 (IF: 2.5)</a></li>
+                        <li><a href="https://doi.org/10.2478/anre-2021-0004" target="_blank"> S., Mishra, J., & Mondal, P.R. (2021). Obstetric history and its Association with Cardiometabolic Risk Factors: A Case-Control Study among Bhil Women of Rajasthan, India. Anthropological Review, 84 (1), 75-85 (2021) Doi: https://doi.Org/10,2478/anre-2021-0004 (IF: NA)</a></li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2020</strong>
+                    <ul>
+                        <li><a href="https://doi.org/10.1016/j.arr.2020.101137" target="_blank"> S., Khanna, P., Srivastava, R., Jain, R., Singh, T., & Kiran, T. (2020). Estimates of malnutrition and risk of malnutrition among the elderly (>60 years) in India: A systematic review and meta-analysis. Ageing Research and reviews (Elsevier), 63, 101137. Doi:10.1016/j.arr.2020.101137 (IF: 13)</a></li>
+                    </ul>
+                </h8>
+            </ul>
+
+            <h2>Published/Accepted Research (National)</h2>
+            <ul>
+                <h8>
+                    <strong>2019</strong>
+                    <ul>
+                        <li>Kushwaha, S., Mishra, J., Saraswathy, K. N., & Mondal, P. R. (2019). Association between Age at Menarche and Cardiovascular Risk Factors: A study among Bhil of Rajasthan, India. International Journal of Innovative Knowledge Concepts. 7(6), 103-107.</li>
+                        <li>Mondal, A., & Kushwaha, S. (2019). Rural-urban variation of migrated Poundra caste group with reference to somatometric parameters. International Journal of Social Sciences Review. 7 (5-III), 1562-1564.</li>
+                        <li>Kushwaha, S., & Mondal, P. R. (2019). Identification of Gender Difference and Homogeneous Population on the basis of Finger-Ball Patterns: A study among Tadvi of Gujarat, India. Voice of Intellectual Man, 9(10), 67-80. Doi: http://dx.doi.Org/10.5958/2319-4308.2019.00006.9</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2018</strong>
+                    <ul>
+                        <li>Kushwaha, S., & Singh, N. (2018). Review: Association Between DNA Methylation of CYP Gene Family in Vitamin D Signalling Pathway and Type 2 Diabetes. International Journal of Recent Scientific Research, 9(2(G)), 24246-24252. Doi:10.24327/I|RSR</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2017</strong>
+                    <ul>
+                        <li>Kushwaha, S., & Kumari, M. (2017). Digital India: Transforming Higher Education and Interdisciplinary Research. International Journal of Innovative Knowledge Concepts, 5(10), 82-86.</li>
+                    </ul>
+                </h8>
+            </ul>
+        </section>
+
+        <section class="presentations section">
+            <h2>Research Work Presentations</h2>
+            <ul>
+                <h8>
+                    <strong>2024</strong>
+                    <ul>
+                        <li>Presented Poster on the topic "Framework for Precision Nutrition in Diabetes" in the Seminar "Nutrition Evidence Synthesis for Biomarker Discovery", 5th March 2024, Organised by Cochrane India, New Delhi</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2023</strong>
+                    <ul>
+                        <li>Presented Poster on the topic "Gene-Based Holistic and Conceptual Framework for Personalised Nutrition in Diabetes: A Comprehensive Multidimesnional Approach" at the Micronutrient Forum 6th Global Conference, 16th Oct to 20 Oct 2023, organised by Micronutrient Forum, The Hague, The Netherlands</li>
+                        <li>Presented Poster on the topic "Gender Disparities in Micronutrient Status among Adolescents in India: Evidence from a Large-Scale National Survey" at the "Global Indian Young Scientists Research and Innovation Conference 2023 on 10th May to 2nd June 2023, organised by Vigyan Bharti and All India Institute of Ayurveda (AIIA), New Delhi</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2022</strong>
+                    <ul>
+                        <li>Presented Research work (Oral) on the topic "Interaction between lipid profile and serum ferritin in prediabetes among school age children (5-9 years) in India" at the 25th Annual Conference of North Zone Chapter, Indian Association of Preventive and Social Medicine" on 10th-11th December 2022, organised by AIIMS, Bhatinda.</li>
+                        <li>Presented Research work (Video Presentation) on the topic "Interaction between lipid profile and urine iodine in pre-diabetes & diabetes among school-age children (5-9 years) in India" at the 2nd International Conference on "Food Science and Nutrition: Leading the way towards SDGs" on 17th-18th November 2022, organised by Scientexconference in Paris, France.</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2021</strong>
+                    <ul>
+                        <li>Presented Review work (Oral) on the topic "Research trends and hotspots of tobacco research in India: a bibliometric analysis" at the 5th NCTOH Conference on the topic “Multisectoral convergence for tobacco free India by 2030: Leading the way towards SDGs" on 26th September 2021 organised by Department of Community Medicine and School of Public Health, PGIMER, Chandigarh, India.</li>
+                        <li>Presented e-poster titled "Impact of Community Based Nutrition Interventions on Anaemia among Reproductive aged Women in District Fatehgarh Sahib, Punjab" in 48th Annual IAPSMCON on "Public Health in 21st Century: Current Challenges and Future Opportunities"19th - 21st March 2021 organised by Department of Community Medicine and School of Public Health and Department of Internal Medicine, PGIMER, Chandigarh.</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2019</strong>
+                    <ul>
+                        <li>Presented Research work on the topic "Reproductive performance and its association with Cardiometabolic Diseases: A case-control study among Bhil Women of Rajasthan, India" in the National seminar on "Health Policy Research: Current Scenario" 15th March 2019 at the Department of Anthropology, University of Delhi, Delhi, India</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2017</strong>
+                    <ul>
+                        <li>Presented Review work on “Digital India: Transforming Higher Education and Interdisciplinary Research" in the National seminar on "Breaking Boundaries of Research in Higher Education"- 14th - 15th October 2017 at Faculty of Performing and Visual Arts, Himachal Pradesh University, Shimla, India.</li>
+                        <li>Presented Research work on the topic “Study of Fingerprint patterns among Bhil of Gujarat" in the National seminar on "Role of Anthropology and Forensic Science in national Development" 24th -25th March 2017 at the Department of Anthropology, University of Delhi, Delhi, India</li>
+                    </ul>
+                </h8>
+            </ul>
+        </section>
+
+        <section class="books section">
+            <h2>Published Books/Chapters</h2>
+            <ul>
+                <h8>
+                    <strong>2022</strong>
+                    <ul>
+                        <li><a href="https://books.google.co.in/books?hl=en&lr=&id=Pe6KEAAAQBAJ&oi=fnd&pg=PA50&ots=x7UYlHVXtQ&sig=U6nOQuGHACRiAnkpXMLfX2aW0fQ#v=onepage&q&f=false" target="_blank"> S., Srivastava, R., Vats, H., Khanna, P., (2022) Machine Learning in Healthcare. Chapter -3, Vol - 1; 50 - 70. In Book: Machine Learning for Societal Improvement, Modernization, and Progress. ISBN - DOI: 10.4018/978-1-6684-4045-2.ch003</a></li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2021</strong>
+                    <ul>
+                        <li>Kushwaha, S., Khanna, P., Srivastava, R. (2021) Food Security Management Strategies: A Perspective from COVID-19 Era. Chapter - 4, Vol - 1; 47-58. In Book: Nutrition as a key to Covid-19 Resilience in India. ISBN - 978-81-212-2048-4</li>
+                        <li>Srivastava, R., Khanna, P., Kushwaha, S. (2021) Impact of Covid-19 on Infant and Young Child Feeding Practices in India. Chapter - 2, Vol - 1; 21-33. In Book: Nutrition as a key to Covid-19 Resilience in India. ISBN -978-81-212-2048-4</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2020</strong>
+                    <ul>
+                        <li>Kushwaha, S., Khanna, P., Srivastava, R. (2020) Nutritional Effects on ACEIs: Is it enhancing the risk for COVID-19? Chapter - 37, Vol - 2; 266-267. Mohindra Publishing House, Chandigarh, India. ISBN - 978-81-94698-83-8</li>
+                    </ul>
+                </h8>
+            </ul>
+        </section>
+
+        <section class="reviews section">
+            <h2>Review Works (Verified at Web of Science/ORCID)</h2>
+            <ul>
+                <h8>
+                    <strong>2024</strong>
+                    <ul>
+                        <li>Reviewed Two manuscript for "Medicine" (Scopus)</li>
+                        <li>Reviewed Two manuscripts for "Diabetes, Obesity and Metabolism" (Scopus)</li>
+                    </ul>
+                    <strong>2023</strong>
+                    <ul>
+                        <li>Reviewed manuscript for "Family Medicine and Community Health Journal" (Scopus)</li>
+                        <li>Reviewed manuscript for "BMJ Open" (Scopus)</li>
+                        <li>Reviewed Four manuscripts for "Diabetes, Obesity and Metabolism" (Scopus)</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2022</strong>
+                    <ul>
+                        <li>Reviewed two manuscript for "International Journal of Public Health Science (IJPHS)"(Scopus)</li>
+                        <li>Reviewed Book Chapter "Lifespan prediction using socio-economic data using Machine Learning", Publisher IGI GLOBAL.</li>
+                        <li>Reviewed manuscript for "Frontiers in Public Health" (Scopus & WoS)</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2021</strong>
+                    <ul>
+                        <li>Reviewed manuscript for "PLOS ONE" (Scopus)</li>
+                        <li>Reviewed manuscript for "Journal of Pharmaceutical Research International" (Scopus)</li>
+                        <li>Reviewed manuscript for "Journal of Advances in Medicine and Medical Research" (Scopus)</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2020</strong>
+                    <ul>
+                        <li>Reviewed manuscript for "PLOS ONE" (Scopus)</li>
+                        <li>Reviewed manuscript for "Journal of Advances in Medicine and Medical Research" (Scopus)</li>
+                    </ul>
+                </h8>
+            </ul>
+        </section>
+
+        <section class="training section">
+            <h2>Workshop/Training/CME/Courses Attended</h2>
+            <ul>
+                <h8>
+                    <strong>2024</strong>
+                    <ul>
+                        <li>Short Course on Quantitative Health Research Methods and Biostatistics, Offline, (PHFI), 6th-9th May, New Delhi</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2023</strong>
+                    <ul>
+                        <li>Causal Modeling for Environmental Epidemiology, Offline, (Harvard T.H. Chan & PHFI) New Delhi - January 2023</li>
+                        <li>Mathematics for Machine Learning: Linear Algebra, Online - October 2022 — January 2023</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2022</strong>
+                    <ul>
+                        <li>Fitting Statistical Models to Data with Python, Online - January 2022 — July 2023</li>
+                        <li>Introduction to Food & Health, Online - January 2022</li>
+                        <li>Applied Genetic Epidemiology in Nutrition research. Online - October 2022</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2021</strong>
+                    <ul>
+                        <li>EndNote Training Series, Online - April 2021</li>
+                        <li>Health Econometrics, Chandigarh - March 2021</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2020</strong>
+                    <ul>
+                        <li>Online Basic nutrigenetic training, Online - May 2020</li>
+                        <li>Training in Manufacturing (Level 2)- Food Safety Supervisor, Online - March 2020</li>
+                    </ul>
+                </h8>
+            </ul>
+        </section>
+
+        <section class="seminars section">
+            <h2>Seminar/Webinar Attended</h2>
+            <ul>
+                <h8>
+                    <strong>2022</strong>
+                    <ul>
+                        <li>Attended the 12th India Probiotic symposium on the topic "Good Microbiome, Probiotics, and Good Health - The Evidence Gets Stronger" on 5-6 March 2022, organised by Gut Microbiota and Probiotic Science Foundation (India).</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2021</strong>
+                    <ul>
+                        <li>Attended e-Conference (5th NCTOH) on the topic "Multisectoral convergence for tobacco-free India by 2030: Leading the way towards SDGs" on 25-27 Sept. 2021, organised by the Department of Community Medicine and School of Public Health, PGIMER, Chandigarh.</li>
+                        <li>Attended webinar on the topic "How to publish in Medical Journals" on 22nd Jun 2021, organised by Tylor and Francis group.</li>
+                        <li>Attended Anthropometry webinar on the topic "Obesity phenotypes from BMI to MRI throughout the life course" organised by the University of Cambridge - Biomedical Research Centre in February 2021 (1 Month).</li>
+                        <li>Attended 8th virtual meeting of Diabetes in Asia Study Group on 14th and 15th January 2021.</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2020</strong>
+                    <ul>
+                        <li>Attended online conference titled "The first national conference of maternal, infant and young child nutrition national working group of Indian association of preventive and social medicine" on 16th and 17th October 2020, organised by the Indian association of preventive and social medicine (IAPSM) in collaboration with Alive and Thrive, India.</li>
+                        <li>Attended webinar on the topic "Support Breastfeeding for A Healthier Planet" on 7th August 2020, organised by the Department of Community Medicine and School of Public Health, PGIMER, Chandigarh.</li>
+                        <li>Attended webinar on the topic "Eliminating trans-fats from oils/fats and foods" on 5th August 2020, organised by GHAI, SIPHER, and Department of Community Medicine and School of Public Health, PGIMER, Chandigarh.</li>
+                        <li>Attended seminar on the topic "Hypertension: Prevention and Management" on 15th February 2020, organised by the Department of Community Medicine and School of Public Health and Department of Internal Medicine, PGIMER, Chandigarh.</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2015</strong>
+                    <ul>
+                        <li>Attended seminar on the topic "Anthropology of Cardiometabolic Adversities" on 25th -26th September 2015, organised by the Department of Anthropology, University of Delhi.</li>
+                    </ul>
+                </h8>
+            </ul>
+        </section>
+
+        <section class="fellowships section">
+            <h2>Fellowships, Awards, Travel Grants and Exams</h2>
+            <ul>
+                <h8>
+                    <strong>2024</strong>
+                    <ul>
+                        <li>Cambridge Travel Grant for attending "Cambridge Diabetes Seminar- 2024"</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2023</strong>
+                    <ul>
+                        <li>SERB (Science and Engineering Research Board) India Travel Grant for attending conference (6th Micronutrient Forum Conference) at The Hague, The Netherlands (16th Oct 2023 to 20th Oct 2023).</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2021</strong>
+                    <ul>
+                        <li>Recognition for outstanding performance in Quiz during an online workshop titled "Applied Genetic Epidemiology in Nutrition research" on October 29-31, 2021, organised as an unseparated agenda of World Class Professor 2021, Alma Ata University, Indonesia.</li>
+                        <li>2nd Prize for research publication under PhD category on 8th Annual Research Day - 22nd Oct. 2021, organised by PGIMER, Chandigarh.</li>
+                        <li>1st Prize in a rapid oral presentation titled "Research trends and hotspots of tobacco research in India: a bibliometric analysis" during the 5th NCTOH Conference.</li>
+                        <li>3rd Prize in an e-poster presentation titled "Impact of Community Based Nutrition Interventions on Anaemia among Reproductive aged Women in District Fatehgarh Sahib, Punjab" during 48th Annual IAPSMCON.</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2018</strong>
+                    <ul>
+                        <li>Indian Council of Medical Research - Junior Research Fellowship (For PhD in India) - 2018</li>
+                        <li>University Grant Commission - Junior Research Fellowship (For M.Phil. and PhD in India) - 2018</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2015</strong>
+                    <ul>
+                        <li>Qualified Master's entrance exams of Forest Research Institute, Dehradun (M.Sc. Environmental Management); Department of Anthropology, University of Delhi (M.Sc. Anthropology); Department of Forensic Science, Sagar University, India. (M.Sc. Forensic Science); JGEEBILS by Tata Institute of Fundamental Research, Mumbai. (M.Sc. Life Sciences).</li>
+                    </ul>
+                </h8>
+            </ul>
+        </section>
+
+        <section class="activities section">
+            <h2>Extra Activities/Organizer</h2>
+            <ul>
+                <h8>
+                    <strong>2023</strong>
+                    <ul>
+                        <li>Assisted in PHASECON conference.</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2022</strong>
+                    <ul>
+                        <li>Organised event on World Diabetes Day 2022 at civil dispensary sector 49-CHD.</li>
+                        <li>Organizing Team Member - National Symposium on Millets (2nd September). Mode: Offline.</li>
+                        <li>Organizing Team Member - National Training Workshop on Public Health Nutrition (15th - 30th Jun). Mode: Offline.</li>
+                        <li>Organizing Team Member - WEBINAR - Earth Day.</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2021</strong>
+                    <ul>
+                        <li>Organizing Team Member - WEBINAR - POSHAN MAAH (1 Month competition activities).</li>
+                        <li>Organizing Team Member - WEBINAR - Breastfeeding week - PGIMER, Chandigarh.</li>
+                        <li>Assisted in conducting a CME workshop titled "Modalities to create an expert group to encourage health, nutrition, and food safety in various eating establishments in the local community" on 12th March 2021, organised during the 48th Annual IAPSMCON.</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2020</strong>
+                    <ul>
+                        <li>Organizing Team Member & Report writing - Street Vendor Training under the project titled "Integrated training program of the street vendors in Urban Local Bodies with a Special focus on street food hygiene."</li>
+                        <li>Organizing Team Member - WEBINAR - POSHAN MAAH (1 Month Webinar & Competitions).</li>
+                        <li>Organizing Team Member - WEBINAR - Breastfeeding week - PGIMER, Chandigarh.</li>
+                        <li>COVID-19 nutritional web poster - Competition organised by Food and Agricultural Organization.</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2019</strong>
+                    <ul>
+                        <li>Member of Rotaract organization District - 3012.</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2017</strong>
+                    <ul>
+                        <li>Coordinator in the annual cultural fest of D.S. Kothari Hostel, University of Delhi, India.</li>
+                        <li>Held the elected post of Sports Secretary at D.S. Kothari Hostel, University of Delhi, India.</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2013</strong>
+                    <ul>
+                        <li>Participated in an Intra-college PowerPoint Presentation Competition organized by the Department of Botany, Ramjas College, University of Delhi.</li>
+                    </ul>
+                </h8>
+                <h8>
+                    <strong>2012</strong>
+                    <ul>
+                        <li>House Captain in High School (D.A.V. Public School, Jehanabad, Bihar, India)</li>
+                    </ul>
+                </h8>
+            </ul>
+        </section>
+
+        <section class="memberships section">
+            <h2>Memberships</h2>
+            <ul>
+                <li>Micronutrient Data Innovation Alliance (DlnA) - October 2022 — Present.</li>
+                <li>Epidemiology Foundation of India - Lifetime Membership - No. 03135</li>
+            </ul>
+        </section>
+
+        <section class="references section">
+            <h2>References</h2>
+            <ul>
+                <li>Dr Poonam Khanna (Additional Professor), Department of Community Medicine and School of Public Health, PGIMER - poonamkhanna05@gmail.com</li>
+                <li>Dr Sanjay Kumar Bhadada (Prof. & Head), Department of Endocrinology, PGIMER - bhadadask@rediffmail.com</li>
+                <li>Dr Shweta Khandelwal (Senior Advisor Nutrition), Jhpiego India - shweta.khandelwal@jhpiego.org</li>
+                <li>Dr Dimple Kondal (Senior Research Scientist), CCDC, New Delhi, India - dimple@ccdcindia.org</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
